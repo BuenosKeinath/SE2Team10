@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Navigation {
 
-	public static String Stadtnamen(String stadt) {
+	public static void Stadtnamen(String stadt) {
 		String[] stadtnamen = { "Stuttgart", "Hamburg", "Berlin", "Dortmund", "Paris", "Rom" };
 
 		for (int i = 0; i < stadtnamen.length; i++) {
@@ -35,6 +35,6 @@ public class Navigation {
 	            System.out.println("Die Eingabe war nicht korrekt");
 	            break;
 		 }
-		return stadt;
+	
 	}
 }
