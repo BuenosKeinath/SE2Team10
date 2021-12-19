@@ -1,3 +1,5 @@
+package Multimedia;
+
 import java.util.Scanner;
 
 public class TakeAway {
@@ -9,18 +11,18 @@ public class TakeAway {
 		System.out.println("Wilkommen bei der Take-Away Funktion, um ihr Tablet zu entkoppeln schalten sie bitte das Fahrzeug aus [Enter zum fortfahren]");
 		input.nextLine();
 
-		System.out.println("Möchten sie das Tablet jetzt entkoppen?" + "\n" + "Enter [1] für Bestätigen oder [2] für Abbruch ");
+		System.out.println("Mï¿½chten sie das Tablet jetzt entkoppen?" + "\n" + "Enter [1] fï¿½r Bestï¿½tigen oder [2] fï¿½r Abbruch ");
 		String entkoppeln = input.nextLine();
 
 		if (entkoppeln.contains("1")) {
-			System.out.println("Ihr Gerät wurde erfolgreich entkoppelt. [Enter zum fortfahren]");
+			System.out.println("Ihr Gerï¿½t wurde erfolgreich entkoppelt. [Enter zum fortfahren]");
 			input.nextLine();
 
-			System.out.println("Möchten sie ihr Tablet wieder mit dem Fahrzeug verbinden? Enter [1] für Bestätigen oder [2] für Abbruch");
+			System.out.println("Mï¿½chten sie ihr Tablet wieder mit dem Fahrzeug verbinden? Enter [1] fï¿½r Bestï¿½tigen oder [2] fï¿½r Abbruch");
 			String verbinden = input.nextLine();
 
 			if (verbinden.contains("1")) {
-				System.out.println("Ihr Gerät wurde erfolgreich mit dem Fahrzeug verbunden.");
+				System.out.println("Ihr Gerï¿½t wurde erfolgreich mit dem Fahrzeug verbunden.");
 			} else if (verbinden.contains("2")) {
 				System.out.println("Der Verbindungsvorgrang wurde abgebrochen.");
 			}
