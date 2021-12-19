@@ -1,12 +1,17 @@
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-class JUnitNavigation {
+public class JUnitNavigation {
 
-	@Test
-	void test() {
-		fail("Not yet implemented");
-	}
+    @Test
+    public void test() {
+        assertEquals(Navigation.Stadtnamen("Hamburg"), "Hamburg Postleitzah: 20095");
+    }
+    
+    @Test
+    public void test1() {
+        assertEquals(Navigation.Stadtnamen("Nürnberg"), "Wir können leider keine Adresse ausmachen.");
+    }
 
 }
