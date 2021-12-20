@@ -63,7 +63,7 @@
                             <archive>
                                 <manifest>
                                     <mainClass>
-                                        de.hs_mannheim.informatik.se2.github_actions.Main
+                                        de.hs_mannheim.informatik.se2.Multimedia.Main
                                     </mainClass>
                                 </manifest>
                             </archive>
