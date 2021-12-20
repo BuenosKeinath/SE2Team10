@@ -43,6 +43,7 @@ public class SelectSong {
 	        System.out.println();
 	        System.out.println();
 			        
+	        songEingabe.close();
 	        switch(eingabe){
 	        case 1:	        	
 	            System.out.println(song.get(eingabe));
