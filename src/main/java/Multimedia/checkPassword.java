@@ -6,23 +6,25 @@ import java.util.Scanner;
 public class checkPassword {
 
 	public static HashMap<String,Integer> pass = new HashMap<>();
-
-	public static int password;
     
 	
-	public static void setPassword() {
+	public static void eingabe() {
+	    int password = 0;
+	    
+	    Scanner input = new Scanner(System.in);
 
-		Scanner input = new Scanner(System.in);
+        System.out.println("Bitte 4 Stellige pass eingeben ");
 
-		System.out.println("Bitte 4 Stellige pass eingeben ");
-
-		password = input.nextInt();
+        password = input.nextInt();
+        setPassword(password);
+        
+	    input.close();
+	}
+	
+	public static void setPassword(int password) {
 
 			pass.put("Pass",password);
 			System.out.println("Password is valid: " + password);
-			
-	   input.close();
-		
 	}
 
 	public static boolean checkPass(int test) {
