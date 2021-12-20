@@ -20,6 +20,8 @@ public class checkPassword {
 
 			pass.put("Pass",password);
 			System.out.println("Password is valid: " + password);
+			
+	   input.close();
 		
 	}
 
