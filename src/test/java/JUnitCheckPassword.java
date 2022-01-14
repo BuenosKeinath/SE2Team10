@@ -7,10 +7,10 @@ import org.junit.Test;
 
 import Multimedia.checkPassword;
 
-class JUnitCheckPassword {
+public class JUnitCheckPassword {
 
     @Test
-    void test() {
+    public void test() {
         checkPassword.setPassword(1234);
         assertTrue(checkPassword.checkPass(1234));
         assertFalse(checkPassword.checkPass(1235));

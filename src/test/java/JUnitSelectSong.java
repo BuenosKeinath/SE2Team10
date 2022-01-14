@@ -9,10 +9,10 @@ import org.junit.Test;
 import Multimedia.SelectSong;
 
 
-class JUnitSelectSong {
+public class JUnitSelectSong {
     
     @Test
-    void test() {
+    public void test() {
        ArrayList<String> song =  SelectSong.playlistErstellen();
         assertEquals(song.get(0), "Elton John & Dua Lipa - Cold Heart");
         assertEquals(song.get(3), "Ed Sheeran - Shivers");
