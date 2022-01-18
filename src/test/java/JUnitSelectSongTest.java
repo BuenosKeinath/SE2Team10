@@ -9,7 +9,7 @@ import org.junit.Test;
 import Multimedia.SelectSong;
 
 
-public class JUnitSelectSong {
+public class JUnitSelectSongTest {
     
     @Test
     public void test() {

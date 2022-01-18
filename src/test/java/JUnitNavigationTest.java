@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import Multimedia.Navigation;
 
-public class JUnitNavigation {
+public class JUnitNavigationTest {
 
     @Test
     public void test() {

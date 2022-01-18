@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import Multimedia.checkPassword;
 
-public class JUnitCheckPassword {
+public class JUnitCheckPasswordTest {
 
     @Test
     public void test() {
